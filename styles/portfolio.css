@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 /* shared style (COLOR code dewar pore # dite hbe) */
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -22,6 +25,20 @@
     border-radius: 5px;
     border: none;
 }
+/* section title */
+section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section.description{
+    font-size: 18px;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
+}
+
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -71,3 +88,62 @@ nav li a{
 .banner-profile-pic{
     width:580px ;
 }
+main style
+/* about style*/
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+
+}
+.about{
+    border-radius: 10;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-description{
+    font-weight: 600;
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;  
+}
+/* skill section styles */
+.skill-container{
+    display: flex;
+    gap: 40px;
+}
+.skill{
+    padding: 40px;
+    border-radius: 5;
+    box-shadow: 0 6px 50px 0 #FD6E0A ;
+}
+/* resume section styles */
+.resume-container{
+    display: flex;
+    gap: 40px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.experience-description,.experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    max-resolution: 30px 5px;
+
+}
+.resume-downlaod{
+    margin: 50px;
+}
+/* footer */
+footer{
+    padding: 130px 203px;
+    display: flex;
+}
+
+
+
